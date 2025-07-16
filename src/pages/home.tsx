@@ -157,7 +157,7 @@ export default function Home() {
                 </div>
 
             </div>
-            <div className="flex w-full items-center justify-center p-4 md:mt-25 mt-5">
+            <div id="experiences" className="flex w-full items-center justify-center p-4 md:mt-25 mt-5">
                 <BlurText
                     text="Expériences"
                     delay={150}

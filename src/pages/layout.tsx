@@ -3,7 +3,7 @@ import GooeyNav from "../components/layout/GooeyNav";
 
 const navItems = [
     { label: "Home", href: "/" },
-    { label: "Experiences", href: "/" },
+    { label: "Experiences", href: "/#experiences" },
     { label: "Contact", href: "/" },
 ];
 
