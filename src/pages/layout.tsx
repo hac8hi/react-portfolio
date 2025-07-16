@@ -9,6 +9,7 @@ const navItems = [
 
 const socialLinks = [
     { platform: "GitHub", href: "https://github.com/hac8hi", iconPath: "/icons/github_icon.svg" },
+    { platform: "LeetCode", href: "https://leetcode.com/u/yDposzXuln", iconPath: "/icons/leetcode_icon.png" },
     { platform: "LinkedIn", href: "https://www.linkedin.com/in/rado-herilalaina-andrianirina", iconPath: "/icons/linkedin_icon.svg" },
     { platform: "Gmail", href: "mailto:8rado.andrianirina8@gmail.com", iconPath: "/icons/gmail_icon.svg" },
 ];
