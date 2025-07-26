@@ -1,8 +1,10 @@
 import { SparklesCore } from "../components/home/Sparkles"
 import TrueFocus from "../components/home/TrueFocus"
-import BlurText from "../components/home/BlurText"
+import BlurText from "../components/BlurText"
 import SkillTag from "../components/home/SkillTag"
 import TiltedCard from "../components/home/TitledCard"
+import Experiences from "./experiences"
+
 
 const devWebSkills = [
     'Express JS', 'Node JS', 'Tailwind', 'React', 'Next JS', 'Javascript',
@@ -40,7 +42,7 @@ export default function Home() {
                             background="transparent"
                             minSize={0.4}
                             maxSize={1}
-                            particleDensity={1200}
+                            particleDensity={500}
                             className="w-full h-full"
                             particleColor="#FFFFFF"
                         />
@@ -157,7 +159,7 @@ export default function Home() {
                 </div>
 
             </div>
-            <div id="experiences" className="flex w-full items-center justify-center p-4 md:mt-25 mt-5">
+            <div className="flex w-full items-center justify-center p-4 md:mt-25 mt-5">
                 <BlurText
                     text="Expériences"
                     delay={150}
@@ -166,6 +168,7 @@ export default function Home() {
                     className="md:text-7xl text-3xl font-extrabold text-white"
                 />
             </div>
+            <Experiences />
         </main>
     )
 }

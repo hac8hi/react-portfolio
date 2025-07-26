@@ -9,7 +9,7 @@ const experiences = [
         company: "Ecole Supérieure Polytechnique d'Antananarivo",
         year: "2024",
         nom: "PPG Monitoring",
-        description: "Creation d'une application avec PyQt5 pour visualiser en temps réel les paramètres physiologiques. Conception d'un pipeline de traitement du signal Photoplethysmographique qui recoit les données du signal via un microcontrôleur.",
+        description: "Création d'une application avec PyQt5 et pyqtgraph pour visualiser en temps réel les paramètres physiologiques. Conception d'une pipeline de traitement du signal Photoplethysmographique qui recoit les données des signaux via un microcontrôleur.",
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const experiences = [
     },
     {
         id: 3,
-        title: "Hachathon Inter-Universitaire",
+        title: "Hackathon Inter-Universitaire",
         company: "TechZara",
         year: "2023",
         nom: "Developpeur Python",
