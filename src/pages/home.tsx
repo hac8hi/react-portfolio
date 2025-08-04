@@ -82,7 +82,7 @@ export default function Home() {
                         </div>
                         <div className="block md:hidden">
                             <TiltedCard
-                                imageSrc="/Accueil/Photo.png"
+                                imageSrc="/accueil/rado.png"
                                 altText="Rado Andrianirina"
                                 captionText="Rado Andrianirina"
                                 containerHeight="300px"
