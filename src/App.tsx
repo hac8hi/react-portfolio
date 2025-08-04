@@ -5,6 +5,7 @@ import Layout from "./pages/layout"
 import Project from "./pages/project"
 import Contact from "./pages/contact"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import NotFoundPage from "./pages/notFoundPage"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

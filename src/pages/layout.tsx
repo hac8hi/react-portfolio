@@ -2,6 +2,7 @@
 import { useState, type ReactNode } from "react";
 import GooeyNav from "../components/layout/GooeyNav";
 import { Link, useLocation } from "react-router-dom";
+import { Img } from "react-image";
 
 const navItems = [
     { label: "Home", href: "/" },
@@ -31,7 +32,7 @@ export default function Layout({ children }: Props) {
         <main className="antialiased bg-black relative">
             <header className="sticky top-0 z-50 flex w-full items-center justify-between px-4 py-2 md:px-8 md:py-3 bg-transparent backdrop-blur-[3px]">
                 <Link to="/">
-                    <img
+                    <Img
                         src="/logo/Logo R.png"
                         alt="Rado Logo"
                         width={35}
@@ -91,7 +92,7 @@ export default function Layout({ children }: Props) {
                         rel="noopener noreferrer"
                         className="transition-transform duration-200 hover:scale-110"
                     >
-                        <img
+                        <Img
                             src={link.iconPath}
                             alt={`${link.platform} icon`}
 

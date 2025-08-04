@@ -1,6 +1,7 @@
 import React from 'react';
 import BlurText from "../components/BlurText";
 import Squares from "../components/contact/Squares";
+import { Img } from 'react-image';
 
 const contactInfo = {
     email: "8rado.andrianirina8@gmail.com",
@@ -32,7 +33,7 @@ export default function Contact() {
     };
     return (
         <main className="flex flex-col items-center min-h-screen py-12 px-4 sm:px-6 lg:px-8">
-            <div className="items-center mb-12 md:mb-16">
+            <div className="items-center mb-12 md:mb-16 z-10">
                 <BlurText
                     text="Contactez Moi"
                     delay={150}
@@ -40,12 +41,12 @@ export default function Contact() {
                     direction="top"
                     className="md:text-7xl text-3xl font-extrabold text-white" />
             </div>
-            <div className="w-full max-w-md md:max-w-3xl lg:max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mt-10">
+            <div className="w-full max-w-md md:max-w-3xl lg:max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mt-10 z-10">
                 <div className="flex flex-col space-y-6 items-center justify-center">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">Mon Adresse Mail</h2>
                     {contactInfo.email && (
                         <div className="flex items-center text-white/80">
-                            <img src={contactInfo.iconPath}
+                            <Img src={contactInfo.iconPath}
                                 alt="email icon"
                                 width={15}
                                 height={15}
@@ -105,7 +106,7 @@ export default function Contact() {
                     </form>
                 </div>
             </div>
-            <div className="absolute top-0 left-0 w-full h-full z-[-5] opacity-15">
+            <div className="absolute top-0 left-0 w-full h-full z-0 opacity-15">
                 <Squares
                     speed={0.5}
                     squareSize={50}

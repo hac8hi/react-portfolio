@@ -7,7 +7,7 @@ import Experiences from "./experiences"
 
 
 const devWebSkills = [
-    'Express JS', 'Node JS', 'Tailwind', 'React', 'Next JS', 'Javascript',
+    'Express JS', 'Node JS', 'Tailwind', 'React', 'Javascript',
     'Supabase', 'MySQL', 'MongoDB'
 ]
 
@@ -66,12 +66,12 @@ export default function Home() {
                     <div className="flex flex-col">
                         <div className="hidden md:block mt-10 mb-20">
                             <TiltedCard
-                                imageSrc="/Accueil/Photo.png"
+                                imageSrc="/accueil/rado.png"
                                 altText="Rado Andrianirina"
                                 captionText="Rado Andrianirina"
-                                containerHeight="500px"
+                                containerHeight="700px"
                                 containerWidth="500px"
-                                imageHeight="500px"
+                                imageHeight="700px"
                                 imageWidth="500px"
                                 rotateAmplitude={10}
                                 scaleOnHover={1.1}
