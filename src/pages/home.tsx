@@ -66,7 +66,7 @@ export default function Home() {
                     <div className="flex flex-col">
                         <div className="hidden md:block mt-10 mb-20">
                             <TiltedCard
-                                imageSrc="/accueil/rado.png"
+                                imageSrc="/home/rado.png"
                                 altText="Rado Andrianirina"
                                 captionText="Rado Andrianirina"
                                 containerHeight="700px"
@@ -82,7 +82,7 @@ export default function Home() {
                         </div>
                         <div className="block md:hidden">
                             <TiltedCard
-                                imageSrc="/accueil/rado.png"
+                                imageSrc="/home/rado.png"
                                 altText="Rado Andrianirina"
                                 captionText="Rado Andrianirina"
                                 containerHeight="500px"
