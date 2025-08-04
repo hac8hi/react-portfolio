@@ -85,9 +85,9 @@ export default function Home() {
                                 imageSrc="/accueil/rado.png"
                                 altText="Rado Andrianirina"
                                 captionText="Rado Andrianirina"
-                                containerHeight="300px"
+                                containerHeight="500px"
                                 containerWidth="300px"
-                                imageHeight="300px"
+                                imageHeight="500px"
                                 imageWidth="300px"
                                 rotateAmplitude={10}
                                 scaleOnHover={1.1}
