@@ -129,7 +129,7 @@ export default function Home() {
                             Analyse des données
                         </h3>
                         <p className="text-gray-400 md:text-md text-sm mt-2 leading-relaxed mb-5">
-                            Je maîtrise l'ensemble du cycle de traitement de la donnée, avec une expertise technique centrée sur Python et SQL. Capable de transformer des données brutes en insights exploitables pour guider la prise de décision.
+                            Je maîtrise l'ensemble du cycle de traitement des données, avec une expertise technique centrée sur Python et SQL. Capable de transformer des données brutes en insights exploitables pour guider la prise de décision.
                         </p>
                         <h4 className="text-cyan-300 font-semibold mb-3 text-base">
                             Stack &amp; outils

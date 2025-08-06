@@ -56,7 +56,7 @@ export default function Contact() {
                     )}
                 </div>
                 <div>
-                    <h2 className="text-2xl sm:text-3xl font-bold mb-10 text-white">Envoi moi un message</h2>
+                    <h2 className="text-2xl sm:text-3xl font-bold mb-10 text-white">Envoyez moi un message</h2>
                     <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
                         <div>
                             <label htmlFor="name" className="block text-white/80 text-sm font-medium mb-1">Nom</label>
