@@ -29,7 +29,7 @@ export default function Layout({ children }: Props) {
     const activeIndex = navItems.findIndex(item => item.href === pathname);
 
     return (
-        <main className="antialiased bg-black relative">
+        <main className="antialiased w-full bg-black relative">
             <header className="sticky top-0 z-50 flex w-full items-center justify-between px-4 py-2 md:px-8 md:py-3 bg-transparent backdrop-blur-[3px]">
                 <Link to="/">
                     <Img
