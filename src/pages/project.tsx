@@ -3,6 +3,7 @@ import BlurText from "../components/BlurText";
 import { GlowCard } from "../components/project/SpotlightCard";
 import Squares from "../components/contact/Squares";
 import { Link } from "react-router-dom";
+import { GlareCard } from "../components/project/GlareCard";
 
 const projects = [
     {
@@ -39,29 +40,52 @@ export default function Project() {
                     direction="top"
                     className="md:text-7xl text-3xl font-extrabold text-white" />
             </div>
-            <div className="w-full flex md:flex-row flex-col items-center justify-center overflow-auto gap-15">
-                {projects.map((pro, _) => (
-
-                    <GlowCard customSize={true} className="lg:w-96 h-[600px] space-x-4 m-4 z-10">
-
-                        <div className="p-6 rounded-lg">
-                            <Link key={pro.id} to={pro.link} target="_blank" rel="noopener noreferrer">
-                                <Img
-                                    src={pro.pic}
-                                    alt={`${pro.nom} icon`}
-                                    className="rounded-lg w-full h-72 object-cover mb-4"
-                                />
-                            </Link>
-                            <h3 className="text-white font-bold md:text-2xl text-lg mb-3 mt-3">
-                                {pro.nom}
-                            </h3>
-                            <p className="text-gray-400 md:text-md text-sm mt-2 mb-5">
-                                {pro.description}
-                            </p>
-                        </div>
-
-                    </GlowCard>
-                ))}
+            <div className="hidden md:block z-10">
+                <div className="w-full flex flex-row items-center justify-center overflow-auto gap-15">
+                    {projects.map((pro, _) => (
+                        <GlowCard key={pro.id} customSize={true} className="lg:w-96 h-[600px] space-x-4 m-4">
+                            <div className="p-6 rounded-lg">
+                                <Link to={pro.link} target="_blank" rel="noopener noreferrer">
+                                    <Img
+                                        src={pro.pic}
+                                        alt={`${pro.nom} icon`}
+                                        className="rounded-lg w-full h-72 object-cover mb-4"
+                                    />
+                                </Link>
+                                <h3 className="text-white font-bold md:text-2xl text-lg mb-3 mt-3">
+                                    {pro.nom}
+                                </h3>
+                                <p className="text-gray-400 md:text-md text-sm mt-2 mb-5">
+                                    {pro.description}
+                                </p>
+                            </div>
+                        </GlowCard>
+                    ))}
+                </div>
+            </div>
+            <div className="md:hidden block z-10">
+                <div className="w-full flex flex-col items-center justify-center overflow-auto gap-15">
+                    {projects.map((pro, _) => (
+                        <Link key={pro.id} to={pro.link} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center">
+                            <GlareCard className="flex flex-col items-center justify-center">
+                                <div className="p-6 rounded-lg">
+                                    <Img
+                                        src={pro.pic}
+                                        alt={`${pro.nom} icon`}
+                                        className="rounded-lg w-full h-72 object-cover mb-4"
+                                    />
+                                    <h3 className="text-white font-bold md:text-2xl text-lg mb-3 mt-3">
+                                        {pro.nom}
+                                    </h3>
+                                    <p className="text-gray-400 md:text-md text-sm mt-2 mb-5">
+                                        {pro.description}
+                                    </p>
+                                </div>
+                            </GlareCard>
+                        </Link>
+                    ))
+                    }
+                </div>
             </div>
             <div className="absolute top-0 left-0 w-full h-full opacity-15">
                 <Squares
