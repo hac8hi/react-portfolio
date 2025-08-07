@@ -10,21 +10,21 @@ const projects = [
         pic: '/project/ppg.png',
         nom: "PPG Monitoring",
         description: "Création d'une application avec PyQt5 et pyqtgraph pour visualiser en temps réel les paramètres physiologiques. Conception d'une pipeline de traitement du signal Photoplethysmographique qui recoit les données des signaux via un microcontrôleur.",
-        link: "github.com/hac8hi/PPGMonitoring"
+        link: "https://github.com/hac8hi/PPGMonitoring"
     },
     {
         id: 2,
         pic: '/project/IGRI.png',
         nom: "Interface de Gestion de réseaux informatique",
         description: "Conception d'une interface semi-graphique avec Dialog pour automatiser la gestion des pare-feu, proxy et IDS sous Debian avec Shell/Bash script.",
-        link: "github.com/hac8hi/networkAdmin_with_Dialog"
+        link: "https://github.com/hac8hi/networkAdmin_with_Dialog"
     },
     {
         id: 3,
         pic: '/project/password-manager.png',
         nom: "Gestionnaire de mot de passe",
         description: "Un gestionnaire de mot de passe concu avec NodeJS et React, les mots de passe sont cryptés avec une clé définit personnalisable puis décrypté quand on veut les consulté.",
-        link: "github.com/hac8hi/password-managerg"
+        link: "https://github.com/hac8hi/password-managerg"
     }
 ]
 
@@ -39,10 +39,10 @@ export default function Project() {
                     direction="top"
                     className="md:text-7xl text-3xl font-extrabold text-white" />
             </div>
-            <div className="w-[100%] flex md:flex-row flex-col items-center justify-center overflow-auto gap-15 custom-cursor">
+            <div className="w-full flex md:flex-row flex-col items-center justify-center overflow-auto gap-15">
                 {projects.map((pro, _) => (
 
-                    <GlowCard customSize={true} className="lg:w-96 h-[600px] space-x-4 m-4">
+                    <GlowCard customSize={true} className="lg:w-96 h-[600px] space-x-4 m-4 z-10">
 
                         <div className="p-6 rounded-lg">
                             <Link key={pro.id} to={pro.link} target="_blank" rel="noopener noreferrer">
@@ -63,7 +63,7 @@ export default function Project() {
                     </GlowCard>
                 ))}
             </div>
-            <div className="absolute top-0 left-0 w-full h-full z-0 opacity-15">
+            <div className="absolute top-0 left-0 w-full h-full opacity-15">
                 <Squares
                     speed={0.5}
                     squareSize={50}
