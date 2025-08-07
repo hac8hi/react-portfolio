@@ -96,7 +96,7 @@ export default function Home() {
                                 displayOverlayContent={true}
                             />
                         </div>
-                        <h3 className="text-white font-bold md:text-2xl text-lg text-center justify-center mb-3">
+                        <h3 className="text-white font-bold md:text-2xl text-lg text-center justify-center mt-8 mb-3">
                             Hello World ! I'm Rado
                         </h3>
                         <p className="text-gray-400 md:text-lg text-md mt-2 leading-relaxed text-center justify-center">
@@ -113,7 +113,7 @@ export default function Home() {
                             Développement Web
                         </h3>
                         <p className="text-gray-400 md:text-lg text-md mt-2 leading-relaxed mb-5">
-                            Je développe des applications web complètes, optimisées pour la performence et la scalabilité. Spécialisé dans le stack MERN, j'élargis également mes compétences vers le mobile en apprenant Flutter.
+                            Je développe des applications web complètes, optimisées pour la performance et la scalabilité. Spécialisé dans le stack MERN, j'élargis également mes compétences vers le mobile en apprenant Flutter.
                         </p>
                         <h4 className="text-cyan-300 font-semibold mb-3 text-base">
                             Stack &amp; outils

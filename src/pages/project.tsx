@@ -24,7 +24,7 @@ const projects = [
         id: 3,
         pic: '/project/password-manager.png',
         nom: "Gestionnaire de mot de passe",
-        description: "Un gestionnaire de mot de passe concu avec NodeJS et React, les mots de passe sont cryptés avec une clé définit personnalisable puis décrypté quand on veut les consulté.",
+        description: "Un gestionnaire de mots de passe conçu avec NodeJS et React. Les mots de passe sont chiffrés avec une clé définie et personnalisable, puis déchiffrés lorsqu’on souhaite les consulter.",
         link: "https://github.com/hac8hi/password-manager"
     }
 ]
