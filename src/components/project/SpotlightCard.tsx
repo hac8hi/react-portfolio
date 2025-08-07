@@ -1,3 +1,8 @@
+
+/*
+    Installed from https://21st.dev/
+*/
+
 import React, { useEffect, useRef, type ReactNode } from 'react';
 
 interface GlowCardProps {

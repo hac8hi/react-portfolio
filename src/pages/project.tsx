@@ -30,7 +30,7 @@ const projects = [
 
 export default function Project() {
     return (
-        <main className="w-[100%] flex flex-col items-center min-h-screen overflow-hidden py-5 px-4 sm:px-6 lg:px-8 z-10">
+        <main className="w-[100%] flex flex-col items-center min-h-screen overflow-hidden py-5 px-4 sm:px-6 lg:px-8">
             <div className="items-center my-20 md:my-26">
                 <BlurText
                     text="Mes Projets"
@@ -39,7 +39,7 @@ export default function Project() {
                     direction="top"
                     className="md:text-7xl text-3xl font-extrabold text-white" />
             </div>
-            <div className="w-[100%] flex md:flex-row flex-col items-center justify-center overflow-auto gap-15 custom-cursor z-10">
+            <div className="w-[100%] flex md:flex-row flex-col items-center justify-center overflow-auto gap-15 custom-cursor">
                 {projects.map((pro, _) => (
 
                     <GlowCard customSize={true} className="lg:w-96 h-[600px] space-x-4 m-4">
