@@ -63,16 +63,16 @@ export default function Home() {
             </div>
             <div className="flex-grow flex flex-col md:flex-row items-center justify-center w-full md:w-9xl md:space-x-50 space-x-0">
                 <div className="flex flex-col items-center justify-center w-full max-w-lg px-4 md:px-0 mt-10 mb-20 space-y-8">
-                    <div className="flex flex-col">
-                        <div className="hidden md:block mt-10 mb-20">
+                    <div className="flex flex-col items-center justify-center">
+                        <div className="hidden md:block">
                             <TiltedCard
                                 imageSrc="/home/rado.png"
                                 altText="Rado Andrianirina"
                                 captionText="Rado Andrianirina"
-                                containerHeight="700px"
-                                containerWidth="500px"
-                                imageHeight="700px"
-                                imageWidth="500px"
+                                containerHeight="400px"
+                                containerWidth="300px"
+                                imageHeight="400px"
+                                imageWidth="300px"
                                 rotateAmplitude={10}
                                 scaleOnHover={1.1}
                                 showMobileWarning={false}
@@ -85,9 +85,9 @@ export default function Home() {
                                 imageSrc="/home/rado.png"
                                 altText="Rado Andrianirina"
                                 captionText="Rado Andrianirina"
-                                containerHeight="500px"
+                                containerHeight="300px"
                                 containerWidth="300px"
-                                imageHeight="500px"
+                                imageHeight="300px"
                                 imageWidth="300px"
                                 rotateAmplitude={10}
                                 scaleOnHover={1.1}
@@ -99,7 +99,7 @@ export default function Home() {
                         <h3 className="text-white font-bold md:text-2xl text-lg text-center justify-center mb-3">
                             Hello World ! I'm Rado
                         </h3>
-                        <p className="text-gray-400 md:text-md text-sm mt-2 leading-relaxed text-center justify-center">
+                        <p className="text-gray-400 md:text-lg text-md mt-2 leading-relaxed text-center justify-center">
                             Ingénieur en Informatique Appliquée, je recherche des opportunités en développement web ou Python, avec des connaissance solides en Linux, réseau et electronique que j'applique dans mes projets pour automatiser et optimiser les solutions.
                         </p>
                         <div className="">
@@ -112,7 +112,7 @@ export default function Home() {
                         <h3 className="text-white font-bold md:text-2xl text-lg tracking-wide mb-3">
                             Développement Web
                         </h3>
-                        <p className="text-gray-400 md:text-md text-sm mt-2 leading-relaxed mb-5">
+                        <p className="text-gray-400 md:text-lg text-md mt-2 leading-relaxed mb-5">
                             Je développe des applications web complètes, optimisées pour la performence et la scalabilité. Spécialisé dans le stack MERN, j'élargis également mes compétences vers le mobile en apprenant Flutter.
                         </p>
                         <h4 className="text-cyan-300 font-semibold mb-3 text-base">
@@ -128,7 +128,7 @@ export default function Home() {
                         <h3 className="text-white font-bold md:text-2xl text-lg tracking-wide mb-3">
                             Analyse des données
                         </h3>
-                        <p className="text-gray-400 md:text-md text-sm mt-2 leading-relaxed mb-5">
+                        <p className="text-gray-400 md:text-lg text-md mt-2 leading-relaxed mb-5">
                             Je maîtrise l'ensemble du cycle de traitement des données, avec une expertise technique centrée sur Python et SQL. Capable de transformer des données brutes en insights exploitables pour guider la prise de décision.
                         </p>
                         <h4 className="text-cyan-300 font-semibold mb-3 text-base">
@@ -144,7 +144,7 @@ export default function Home() {
                         <h3 className="text-white font-bold md:text-2xl text-lg tracking-wide mb-3">
                             Systèmes, Réseaux &amp; Automatisation
                         </h3>
-                        <p className="text-gray-400 md:text-md text-sm mt-2 leading-relaxed mb-5">
+                        <p className="text-gray-400 md:text-lg text-md mt-2 leading-relaxed mb-5">
                             Passionné par l'automatisation des systèmes et des réseaux, j'utilise des scripts Shell/Bash pour optimiser les processus. J'ai également une expérience pratique avec les microcontrôleurs pour des projets embarqués.
                         </p>
                         <h4 className="text-cyan-300 font-semibold mb-3 text-base">
@@ -165,7 +165,7 @@ export default function Home() {
                     delay={150}
                     animateBy="words"
                     direction="top"
-                    className="md:text-7xl text-3xl font-extrabold text-white"
+                    className="md:text-5xl text-3xl font-extrabold text-white"
                 />
             </div>
             <Experiences />
