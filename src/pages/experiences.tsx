@@ -17,7 +17,7 @@ const experiences = [
         company: "AlgoMada",
         year: "2023",
         nom: "Developpeur Backend",
-        description: "Developpement d'une API avec ExpressJS utilisant une pipeline de recherche de chemin le plus court pour une application de type Google Maps pour les trajets et itinéraires à Antananarivo."
+        description: "Développement d'une API avec ExpressJS utilisant une pipeline de recherche de chemin le plus court pour une application de type Google Maps pour les trajets et itinéraires à Antananarivo."
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const experiences = [
         company: "TechZara",
         year: "2023",
         nom: "Developpeur Python",
-        description: "Developpement d'une application web avec Django pour la gestion de payement mobile money en utilisant l'API d'Airtel Money"
+        description: "Développement d'une application web avec Django pour la gestion de payement mobile money en utilisant l'API d'Airtel Money"
     },
     {
         id: 4,
