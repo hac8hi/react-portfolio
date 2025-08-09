@@ -23,17 +23,17 @@ A modern and responsive personal portfolio built with **Vite** + **React**, show
    cd portfolio
    ```
 2. **Install dependencies**
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm install
+   ```
 3. **Start development server**
-  ```bash
-  npm run dev
-  ```
+   ```bash
+   npm run dev
+   ```
 4. **Build for production**
-  ```bash
-  npm run build
-  ```
+   ```bash
+   npm run build
+   ```
 
 
 ## 🌐 Live Demo
