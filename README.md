@@ -19,7 +19,7 @@ A modern and responsive personal portfolio built with **Vite** + **React**, show
 ## ⚡ Installation & Setup
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/hac8hi/react-portfolio.git
    cd portfolio
    ```
 2. **Install dependencies**
