@@ -7,12 +7,12 @@ import Experiences from "./experiences"
 
 
 const devWebSkills = [
-    'Express JS', 'Node JS', 'Tailwind', 'React', 'Javascript',
+    'Django REST', 'FastAPI', 'Express JS', 'Node JS', 'Tailwind', 'React', 'Javascript',
     'Supabase', 'MySQL', 'MongoDB'
 ]
 
 const dataProcessing = [
-    'Python', 'PyQt', 'NumPy', 'SciPy', 'Pandas', 'Scikit-Learn', 'Matplotlib', 'FastAPI', 'SQL'
+    'Python', 'PyQt', 'NumPy', 'SciPy', 'Pandas', 'Scikit-Learn', 'Matplotlib', 'SQL'
 ]
 
 const sysNetworkAutomation = [
