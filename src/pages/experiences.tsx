@@ -5,6 +5,14 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 const experiences = [
     {
         id: 1,
+        title: "Stagiaire en Developpement Backend",
+        company: "Eray Digital",
+        year: "Octobre 2025",
+        nom: "Developpeur Python/Django Backend",
+        description: "Developpement d'un API RESTful avec Django pour un logiciel comptable. J'ai participé à la conception de la base de données, à l'implementation des endpoints des journaux et plans comptables.",
+    },
+    {
+        id: 2,
         title: "Projet de Master",
         company: "Ecole Supérieure Polytechnique d'Antananarivo",
         year: "2024",
@@ -12,7 +20,7 @@ const experiences = [
         description: "Création d'une application avec PyQt5 et pyqtgraph pour visualiser en temps réel les paramètres physiologiques. Conception d'une pipeline de traitement du signal Photoplethysmographique qui recoit les données des signaux via un microcontrôleur.",
     },
     {
-        id: 2,
+        id: 3,
         title: "Clean Code Contest",
         company: "AlgoMada",
         year: "2023",
@@ -20,7 +28,7 @@ const experiences = [
         description: "Développement d'une API avec ExpressJS utilisant une pipeline de recherche de chemin le plus court pour une application de type Google Maps pour les trajets et itinéraires à Antananarivo."
     },
     {
-        id: 3,
+        id: 4,
         title: "Hackathon Inter-Universitaire",
         company: "TechZara",
         year: "2023",
@@ -28,7 +36,7 @@ const experiences = [
         description: "Développement d'une application web avec Django pour la gestion de payement mobile money en utilisant l'API d'Airtel Money"
     },
     {
-        id: 4,
+        id: 5,
         title: "Projet de Licence",
         company: "Ecole Supérieure Polytechnique d'Antananarivo",
         year: "2021",
