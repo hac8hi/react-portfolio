@@ -8,8 +8,8 @@ const experiences = [
         title: "Stagiaire en Developpement Backend",
         company: "Eray Digital",
         year: "Octobre 2025",
-        nom: "Developpeur Python/Django Backend",
-        description: "Developpement d'un API RESTful avec Django pour un logiciel comptable. J'ai participé à la conception de la base de données, à l'implementation des endpoints des journaux et plans comptables.",
+        nom: "Développeur Python/Django Backend",
+        description: "J’ai participé à la conception de la base de données ainsi qu’à l’implémentation des endpoints des journaux et des plans comptables dans une API RESTful Django.",
     },
     {
         id: 2,
@@ -17,23 +17,23 @@ const experiences = [
         company: "Ecole Supérieure Polytechnique d'Antananarivo",
         year: "2024",
         nom: "PPG Monitoring",
-        description: "Création d'une application avec PyQt5 et pyqtgraph pour visualiser en temps réel les paramètres physiologiques. Conception d'une pipeline de traitement du signal Photoplethysmographique qui recoit les données des signaux via un microcontrôleur.",
+        description: "J’ai conçu une application avec PyQt5 et PyQtGraph pour visualiser en temps réel les paramètres physiologiques humains (comme le signal PPG, les battements du cœur par minute et le nombre de respirations par minute). J’ai également développé une pipeline de traitement du signal photopléthysmographique qui reçoit les données envoyées par un microcontrôleur.",
     },
     {
         id: 3,
         title: "Clean Code Contest",
         company: "AlgoMada",
         year: "2023",
-        nom: "Developpeur Backend",
-        description: "Développement d'une API avec ExpressJS utilisant une pipeline de recherche de chemin le plus court pour une application de type Google Maps pour les trajets et itinéraires à Antananarivo."
+        nom: "Développeur Backend",
+        description: "J’ai participé au développement d’une API avec ExpressJS utilisant une pipeline de recherche du chemin le plus court pour une application de type Google Maps dédiée aux trajets et itinéraires à Antananarivo."
     },
     {
         id: 4,
         title: "Hackathon Inter-Universitaire",
         company: "TechZara",
         year: "2023",
-        nom: "Developpeur Python",
-        description: "Développement d'une application web avec Django pour la gestion de payement mobile money en utilisant l'API d'Airtel Money"
+        nom: "Développeur Python",
+        description: "J’ai aidé à la conception d’une application web avec Django pour la gestion des paiements Mobile Money en utilisant l’API d’Airtel Money."
     },
     {
         id: 5,
@@ -41,7 +41,7 @@ const experiences = [
         company: "Ecole Supérieure Polytechnique d'Antananarivo",
         year: "2021",
         nom: "Interface de Gestion de réseaux informatique",
-        description: "Conception d'une interface semi-graphique avec Dialog pour automatiser la gestion des pare-feu, proxy et IDS sous Debian avec Shell/Bash script."
+        description: "J’ai conçu une interface semi-graphique avec Dialog pour automatiser la gestion des pare-feu, du proxy et de l’IDS sous Debian à l’aide de scripts Shell/Bash."
     }
 ]
 
