@@ -9,7 +9,7 @@ const experiences = [
         company: "Eray Digital",
         year: "Octobre 2025",
         nom: "Développeur Python/Django Backend",
-        description: "J’ai participé à la conception de la base de données ainsi qu’à l’implémentation des endpoints des journaux et des plans comptables dans une API RESTful Django.",
+        description: "J’ai participé à la conception de la base de données d’un logiciel de gestion comptable ainsi qu’à l’implémentation des endpoints des journaux et des plans comptables dans une API RESTful Django.",
     },
     {
         id: 2,
