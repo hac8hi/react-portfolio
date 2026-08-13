@@ -5,6 +5,14 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 const experiences = [
     {
         id: 1,
+        title: "Freelance en développement Fullstack",
+        company: "DevelopA SARLU",
+        year: "Juin 2026 - Aujourd'hui",
+        nom: "Développeur Fullstack Django/React",
+        description: "Dans le cadre de la continuité du projet développé durant mon stage, j'ai poursuivi en freelance le développement et l'évolution d'une plateforme web de gestion d'association. Mes principales missions consistent à développer de nouvelles fonctionnalités, maintenir et faire évoluer les applications Django et React, concevoir et optimiser les modèles de données et les API, corriger les anomalies et adapter la plateforme aux nouveaux besoins fonctionnels de l'association.",
+    },
+    {
+        id: 2,
         title: "Stagiaire en développement Fullstack",
         company: "DevelopA SARLU",
         year: "Janvier - Mai 2026",
@@ -12,7 +20,7 @@ const experiences = [
         description: "Durant mon stage, j'ai participé activement au développement d'une application web de gestion d'association ainsi que d'une application web de gestion des tâches, principalement développées avec les technologies Django et React. Mes principales missions ont consisté à concevoir et mettre en place les bases de données, concevoir et développer les interfaces utilisateur, ainsi qu'à développer, maintenir et faire évoluer les applications.",
     },
     {
-        id: 2,
+        id: 3,
         title: "Stagiaire en Developpement Backend",
         company: "Eray Digital",
         year: "Octobre 2025",
@@ -20,7 +28,7 @@ const experiences = [
         description: "J’ai participé à la conception de la base de données d’un logiciel de gestion comptable ainsi qu’à l’implémentation des endpoints des journaux et des plans comptables dans une API RESTful Django.",
     },
     {
-        id: 3,
+        id: 4,
         title: "Projet de Master",
         company: "Ecole Supérieure Polytechnique d'Antananarivo",
         year: "2024",
@@ -28,7 +36,7 @@ const experiences = [
         description: "J’ai conçu une application avec PyQt5 et PyQtGraph pour visualiser en temps réel les paramètres physiologiques humains (comme le signal PPG, les battements du cœur par minute et le nombre de respirations par minute). J’ai également développé une pipeline de traitement du signal photopléthysmographique qui reçoit les données envoyées par un microcontrôleur.",
     },
     {
-        id: 4,
+        id: 5,
         title: "Clean Code Contest",
         company: "AlgoMada",
         year: "2023",
@@ -36,7 +44,7 @@ const experiences = [
         description: "J’ai participé au développement d’une API avec ExpressJS utilisant une pipeline de recherche du chemin le plus court pour une application de type Google Maps dédiée aux trajets et itinéraires à Antananarivo."
     },
     {
-        id: 5,
+        id: 6,
         title: "Hackathon Inter-Universitaire",
         company: "TechZara",
         year: "2023",
@@ -44,7 +52,7 @@ const experiences = [
         description: "J’ai aidé à la conception d’une application web avec Django pour la gestion des paiements Mobile Money en utilisant l’API d’Airtel Money."
     },
     {
-        id: 6,
+        id: 7,
         title: "Projet de Licence",
         company: "Ecole Supérieure Polytechnique d'Antananarivo",
         year: "2021",
