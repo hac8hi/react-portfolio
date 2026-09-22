@@ -5,11 +5,11 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 const experiences = [
     {
         id: 1,
-        title: "Freelance en développement Fullstack",
+        title: "Consultant en développement Fullstack",
         company: "DevelopA SARLU",
         year: "Juin 2026 - Aujourd'hui",
         nom: "Développeur Fullstack Django/React",
-        description: "Dans le cadre de la continuité du projet développé durant mon stage, j'ai poursuivi en freelance le développement et l'évolution d'une plateforme web de gestion d'association. Mes principales missions consistent à développer de nouvelles fonctionnalités, maintenir et faire évoluer les applications Django et React, concevoir et optimiser les modèles de données et les API, corriger les anomalies et adapter la plateforme aux nouveaux besoins fonctionnels de l'association.",
+        description: "Dans le cadre de la continuité du projet développé durant mon stage, j'ai poursuivi en tant que consultant le développement et l'évolution d'une plateforme web de gestion d'association. Mes principales missions consistent à développer de nouvelles fonctionnalités, maintenir et faire évoluer les applications Django et React, concevoir et optimiser les modèles de données et les API, corriger les anomalies et adapter la plateforme aux nouveaux besoins fonctionnels de l'association.",
     },
     {
         id: 2,
