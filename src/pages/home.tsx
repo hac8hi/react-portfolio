@@ -7,8 +7,8 @@ import Experiences from "./experiences"
 
 
 const devWebSkills = [
-    'Django REST', 'FastAPI', 'Express JS', 'Node JS', 'Tailwind', 'React', 'Javascript',
-    'Supabase', 'MySQL', 'MongoDB'
+    'Django', 'Django REST', 'FastAPI', 'Nest.js', 'Next.js', 'React.js', 'Tailwind', 'Javascript',
+    'PostgreSQL', 'MySQL', 'MongoDB'
 ]
 
 const dataProcessing = [
