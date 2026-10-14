@@ -1,3 +1,4 @@
+
 import { SparklesCore } from "../components/home/Sparkles"
 import TrueFocus from "../components/home/TrueFocus"
 import BlurText from "../components/BlurText"
@@ -5,23 +6,67 @@ import SkillTag from "../components/home/SkillTag"
 import TiltedCard from "../components/home/TitledCard"
 import Experiences from "./experiences"
 
-
-const devWebSkills = [
-    'Django', 'Django REST', 'FastAPI', 'Nest.js', 'Next.js', 'React.js', 'Tailwind', 'Javascript',
-    'PostgreSQL', 'MySQL', 'MongoDB'
+const languages = [
+    'Python',
+    'JavaScript',
+    'TypeScript',
+    'PHP',
+    'SQL',
+    'Bash',
+    'HTML5',
+    'CSS3'
 ]
 
-const dataProcessing = [
-    'Python', 'PyQt', 'NumPy', 'SciPy', 'Pandas', 'Scikit-Learn', 'Matplotlib', 'SQL'
+const frameworks = [
+    'Symfony',
+    'Django',
+    'Django REST Framework',
+    'FastAPI',
+    'Nest.js',
+    'React.js',
+    'Next.js',
+    'Tailwind CSS',
+    'Bootstrap',
+    'PyQt',
+    'PyQtGraph',
+    'Mercure'
 ]
 
-const sysNetworkAutomation = [
-    'Linux(Debian)', 'Shell/Bash Script', 'Outils Réseaux', 'Microcontrôleurs'
+const tools = [
+    'PostgreSQL',
+    'MySQL',
+    'MongoDB',
+    'SQLite',
+    'NumPy',
+    'SciPy',
+    'Pandas',
+    'Scikit-Learn',
+    'Matplotlib',
+    'Intelligence artificielle',
+    'Agents IA',
+    'OCR',
+    'MCP (Model Context Protocol)',
+    'API REST',
+    'Architecture microservices',
+    'Git',
+    'Gitflow',
+    'GitLab',
+    'Docker',
+    'Docker Compose',
+    'Nginx',
+    'AWS',
+    'Linux (Debian)',
+    'Shell/Bash Script',
+    'Outils réseaux',
+    'Microcontrôleurs',
+    'Claude Code',
+    'Scrum'
 ]
 
 export default function Home() {
     return (
         <main className="flex-grow flex flex-col items-center h-full relative">
+            {/* Hero */}
             <div className="h-[40rem] w-full flex flex-col items-center justify-center">
                 <div className="relative z-20">
                     <BlurText
@@ -29,14 +74,16 @@ export default function Home() {
                         delay={150}
                         animateBy="letters"
                         direction="top"
-                        className="lg:text-9xl md:text-7xl text-4xl font-bold text-center text-white" />
+                        className="lg:text-9xl md:text-7xl text-4xl font-bold text-center text-white"
+                    />
                 </div>
-                <div className="w-full h-40 relative">
 
+                <div className="w-full h-40 relative">
                     <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
                     <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
                     <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
                     <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
+
                     <div className="absolute inset-0">
                         <SparklesCore
                             background="transparent"
@@ -46,8 +93,10 @@ export default function Home() {
                             className="w-full h-full"
                             particleColor="#FFFFFF"
                         />
-                        <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+
+                        <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]" />
                     </div>
+
                     <div className="absolute inset-0 pt-10 items-center justify-center">
                         <TrueFocus
                             sentence="Développement   Data   Automatisation"
@@ -57,11 +106,13 @@ export default function Home() {
                             animationDuration={0.3}
                             pauseBetweenAnimations={1}
                         />
-
                     </div>
                 </div>
             </div>
+
+            {/* Profile and skills */}
             <div className="flex-grow flex flex-col md:flex-row items-center justify-center w-full md:w-9xl md:space-x-50 space-x-0">
+                {/* Profile */}
                 <div className="flex flex-col items-center justify-center w-full max-w-lg px-4 md:px-0 mt-10 mb-20 space-y-8">
                     <div className="flex flex-col items-center justify-center">
                         <div className="hidden md:block">
@@ -80,6 +131,7 @@ export default function Home() {
                                 displayOverlayContent={true}
                             />
                         </div>
+
                         <div className="block md:hidden">
                             <TiltedCard
                                 imageSrc="/home/rado.png"
@@ -96,69 +148,96 @@ export default function Home() {
                                 displayOverlayContent={true}
                             />
                         </div>
+
                         <h3 className="text-white font-bold md:text-2xl text-lg text-center justify-center mt-8 mb-3">
                             Hello World ! I'm Rado
                         </h3>
+
                         <p className="text-gray-400 md:text-lg text-md mt-2 leading-relaxed text-center justify-center">
-                            Ingénieur en Informatique Appliquée, je recherche des opportunités en développement web ou Python, avec des connaissance solides en Linux, réseau et electronique que j'applique dans mes projets pour automatiser et optimiser les solutions.
+                            Ingénieur en Informatique Appliquée, je développe
+                            des applications web et des solutions Python en
+                            intégrant l'intelligence artificielle et
+                            l'automatisation. Mes compétences en Linux, réseaux
+                            et systèmes embarqués complètent mon approche du
+                            développement logiciel.
                         </p>
-                        <div className="">
-
-                        </div>
                     </div>
                 </div>
+
+                {/* Skills */}
                 <div className="flex flex-col w-full max-w-lg px-4 md:px-0 mt-10 mb-20 space-y-8">
+                    {/* Language */}
                     <div className="relative p-6 rounded-lg transition-transform duration-300 ease-in-out hover:scale-105">
                         <h3 className="text-white font-bold md:text-2xl text-lg tracking-wide mb-3">
-                            Développement Web
+                            Language
                         </h3>
+
                         <p className="text-gray-400 md:text-lg text-md mt-2 leading-relaxed mb-5">
-                            Je développe des applications web complètes, optimisées pour la performance et la scalabilité. Spécialisé dans le stack MERN, j'élargis également mes compétences vers le mobile en apprenant Flutter.
+                            Langages utilisés pour le développement
+                            d'applications web, backend, scripts et
+                            traitement des données.
                         </p>
+
                         <h4 className="text-cyan-300 font-semibold mb-3 text-base">
-                            Stack &amp; outils
+                            Compétences
                         </h4>
+
                         <div className="flex flex-wrap gap-2">
-                            {devWebSkills.map(skill => (
+                            {languages.map(skill => (
                                 <SkillTag key={skill} skillName={skill} />
                             ))}
                         </div>
                     </div>
+
+                    {/* Framework */}
                     <div className="relative p-6 rounded-lg transition-transform duration-300 ease-in-out hover:scale-105">
                         <h3 className="text-white font-bold md:text-2xl text-lg tracking-wide mb-3">
-                            Analyse des données
+                            Framework
                         </h3>
+
                         <p className="text-gray-400 md:text-lg text-md mt-2 leading-relaxed mb-5">
-                            Je maîtrise l'ensemble du cycle de traitement des données, avec une expertise technique centrée sur Python et SQL. Capable de transformer des données brutes en insights exploitables pour guider la prise de décision.
+                            Frameworks et bibliothèques pour concevoir
+                            des applications full-stack, des API REST
+                            et des interfaces utilisateur.
                         </p>
+
                         <h4 className="text-cyan-300 font-semibold mb-3 text-base">
-                            Stack &amp; outils
+                            Compétences
                         </h4>
+
                         <div className="flex flex-wrap gap-2">
-                            {dataProcessing.map(skill => (
+                            {frameworks.map(skill => (
                                 <SkillTag key={skill} skillName={skill} />
                             ))}
                         </div>
                     </div>
+
+                    {/* Tools */}
                     <div className="relative p-6 rounded-lg transition-transform duration-300 ease-in-out hover:scale-105">
                         <h3 className="text-white font-bold md:text-2xl text-lg tracking-wide mb-3">
-                            Systèmes, Réseaux &amp; Automatisation
+                            Outils
                         </h3>
+
                         <p className="text-gray-400 md:text-lg text-md mt-2 leading-relaxed mb-5">
-                            Passionné par l'automatisation des systèmes et des réseaux, j'utilise des scripts Shell/Bash pour optimiser les processus. J'ai également une expérience pratique avec les microcontrôleurs pour des projets embarqués.
+                            Outils et technologies pour les bases de données,
+                            l'intelligence artificielle, le DevOps,
+                            l'administration système et l'automatisation.
                         </p>
+
                         <h4 className="text-cyan-300 font-semibold mb-3 text-base">
                             Stack &amp; outils
                         </h4>
+
                         <div className="flex flex-wrap gap-2">
-                            {sysNetworkAutomation.map(skill => (
+                            {tools.map(skill => (
                                 <SkillTag key={skill} skillName={skill} />
                             ))}
                         </div>
                     </div>
                 </div>
-
             </div>
+
+            {/* Experiences */}
             <div className="flex w-full items-center justify-center p-4 md:mt-25 mt-5">
                 <BlurText
                     text="Expériences"
@@ -168,6 +247,7 @@ export default function Home() {
                     className="md:text-5xl text-3xl font-extrabold text-white"
                 />
             </div>
+
             <Experiences />
         </main>
     )
